@@ -1,1 +1,83 @@
 # bootstrap-nav-pills
+With nav pills, you can highlight your various services and values in an easy-to-use showcase.
+
+## Tutorial
+For detailed instruction's, view Solodev's [How to Create Showcase Section with Bootstrap Nav-Pills](https://www.solodev.com/blog/how-to-create-showcase-section-with-bootstrap-nav-pills.stml) article.
+
+## Demo
+  		  
+Try out a working example on [JSFiddle](https://jsfiddle.net/solodev/h0n3Lgq6/19/).
+
+## HTML
+
+The tutorial contains the following basic HTML markup.
+
+```
+<div class="container mt-md-6 mt-5" id="nav-pills">
+  <div class="row">
+    <div class="col-lg-9 col-xl-7 mx-auto text-center">
+      <h2>Collaborate on your digital transformation</h2>
+      <p class="lead">Create amazing websites and customer experiences with your entire team, all backed by the cloud power of AWS.</p>
+    </div>
+  </div>
+  <div class="row align-items-center mt-md-6 mt-4">
+    <div class="col-lg-6 d-none d-lg-block">
+      <div class="tab-content" id="v-pills-tabContent">
+        <div class="tab-pane active show" id="v-pills-1" role="tabpanel" aria-labelledby="v-pills-1-tab">
+          <img alt="Web Content Management" class="img-fluid" src="https://raw.githubusercontent.com/solodev/bootstrap-nav-pills/master/images/home-cms.jpg">
+        </div>
+        <div class="tab-pane" id="v-pills-2" role="tabpanel" aria-labelledby="v-pills-2-tab">
+          <img alt="Customer Experience Platform" class="img-fluid" src="https://raw.githubusercontent.com/solodev/bootstrap-nav-pills/master/images/home-cxp-small.jpg">
+        </div>
+        <div class="tab-pane" id="v-pills-3" role="tabpanel" aria-labelledby="v-pills-3-tab">
+          <img alt="Team Collaboration" class="img-fluid" src="https://raw.githubusercontent.com/solodev/bootstrap-nav-pills/master/images/home-team-collab.jpg">
+        </div>
+        <div class="tab-pane" id="v-pills-4" role="tabpanel" aria-labelledby="v-pills-4-tab">
+          <img alt="AWS Hosting" class="img-fluid" src="https://raw.githubusercontent.com/solodev/bootstrap-nav-pills/master/images/home-hosting.jpg">
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-6">
+      <ul class="px-lg-5 nav nav-pills outline-pills text-md-left text-center">
+        <li class="nav-item position-relative">
+          <a class="hover-nav-link text-gray nav-link p-3 active" id="v-pills-1-tab" data-toggle="pill" href="#v-pills-1" aria-controls="v-pills-1">
+            <h3 class="text-orange h4">Build better websites</h3>
+            <p class="m-0">Solodev is a DCX platform. Start a free account and create beautiful web pages in minutes with easy-to-use templates and LunarXP theme. Manage content without code, preview with your team, and publish your brand.</p>
+          </a>
+        </li>
+        <li class="pt-3 nav-item position-relative">
+          <a class="hover-nav-link text-gray nav-link p-3" id="v-pills-2-tab" data-toggle="pill" href="#v-pills-2" aria-controls="v-pills-2">
+            <h3 class="text-orange h4">Create amazing customer experiences</h3>
+            <p class="m-0">Build data-driven experiences with powerful insights. Write content that matters, craft landing pages, conduct A/B tests, integrate with digital marketing, and optimize with analytics to consistently improve your customer experience.</p>
+          </a>
+        </li>
+        <li class="pt-3 nav-item position-relative">
+          <a class="hover-nav-link text-gray nav-link p-3" id="v-pills-3-tab" data-toggle="pill" href="#v-pills-3" aria-controls="v-pills-3">
+            <h3 class="text-orange h4">Collaborate with your entire team</h3>
+            <p class="m-0">Get everyone on the same webpage. Use tutorials to create sitemaps and wireframes. Invite users, permission them into groups, ensure everyone works on what they need to do, and iterate with simple web building tools.</p>
+          </a>
+        </li>
+        <li class="pt-3 nav-item position-relative pb-1">
+          <a class="hover-nav-link text-gray nav-link p-3" id="v-pills-4-tab" data-toggle="pill" href="#v-pills-4" aria-controls="v-pills-4">
+            <h3 class="text-orange h4">Host and scale with AWS</h3>
+            <p class="m-0">Futureproof in the world’s most trusted cloud infrastructure and elevate security, scalability and performance with Solodev – built exclusively for AWS. Upgrade to Solodev Enterprise for advanced control and redundancy.</p>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+```
+
+## CSS
+All required CSS is contained with style.css
+
+## External Resources
+This tutorial includes the following third party resources.
+
+```
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+```
